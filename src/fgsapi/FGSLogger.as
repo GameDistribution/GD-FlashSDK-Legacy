@@ -268,7 +268,22 @@ package fgsapi
 			
 			return url;
 		}
-	
+		
+		public static function PlayGame():void 
+		{		
+			/**
+			 * FGS Logger sends how many times 'PlayGame' is called. If you invoke 'PlayGame' many times, it increases 'PlayGame' counter and sends this counter value. 
+			 * We no longer support this feature
+			 * */
+		}
+		public static function CustomLog(_key:String):void 
+		{
+			/**
+			 * FGS Logger sends how many times 'CustomLog' that is called related to given by _key name. If you invoke 'CustomLog' many times, it increases 'CustomLog' counter and sends this counter value. 
+			 * We no longer support this feature
+			 * */
+		}
+		
 		/*
 		Custom Event Listener for Static functions
 		*/
