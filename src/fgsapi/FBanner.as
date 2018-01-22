@@ -6,7 +6,6 @@ package fgsapi
 		
 	internal final class FBanner
 	{
-
 		private static const dispatcher:EventDispatcher = new EventDispatcher();		
 		
 		internal static var _AId:String = '';
@@ -70,7 +69,7 @@ package fgsapi
 										a.async=1;
 										a.src=g;
 										m.parentNode.insertBefore(a,m);
-									})(window,document,'script','https://flash.api.gamedistribution.com/fgo.min.js','fgo');
+									})(window,document,'script','//flash.api.gamedistribution.com/fgo.min.js','fgo');
 
 									fgo("]]>{FGSLogger.gID}<![CDATA[","]]>{FGSLogger.GUID}<![CDATA[");
 							})
